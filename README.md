@@ -1,11 +1,14 @@
-# A Basic template for Rust Rocket API Framework
+# Basic Template for Rust Rocket API Framework
 
-## Fetures 
-- Authincation Middleware
-- Dynamic Error Handlers 
-- API Documentation using Swagger and Rapidocs
-- Better Route Management
+## Features
+- Authentication Middleware
+- Dynamic Error Handlers
+- API Documentation with Swagger and Rapidoc
+- Enhanced Route Management
 
-## Can be added 
-- Proper request JSON Body validation
-- Proper Database Handling with pools (Postgres, MySQL, SQLite, MongoDB, etc)
+## Enhancements Needed
+- Request JSON Body Validation
+- Database Handling with Connection Pools (PostgreSQL, MySQL, SQLite, MongoDB, etc.)
+
+## Contribution
+- Contributions are welcome! Please create pull requests and help improve the project.
