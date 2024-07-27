@@ -2,7 +2,7 @@ use crate::models::post::Post;
 use rocket::get;
 use rocket::serde::json::Json;
 use rocket_okapi::{
-    okapi::openapi3::OpenApi, openapi, openapi_get_routes_spec, settings::OpenApiSettings
+    okapi::openapi3::OpenApi, openapi, openapi_get_routes_spec, settings::OpenApiSettings,
 };
 
 #[openapi(tag = "Posts")]
