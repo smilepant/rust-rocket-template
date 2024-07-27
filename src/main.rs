@@ -25,7 +25,7 @@ async fn main() {
 
 pub fn create_server() -> Rocket<Build> {
     let mut building_rocket = rocket::build()
-        .register("/", catchers![rocket_validation::validation_catcher])
+        // .register("/", catchers![rocket_validation::validation_catcher])
         .register("/", get_catchers())
         .mount("/rapidoc/", routes::rapidoc())
         .mount("/swagger", routes::swagger_ui())
